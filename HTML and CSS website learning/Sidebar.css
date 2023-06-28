@@ -1,0 +1,340 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 236px;
+  z-index: 99;
+  max-height: 2000px;
+  
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.siderbar::after:hover {
+  z-index: 45;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  padding-right: 12px;
+  z-index: 50;
+}
+
+::-webkit-scrollbar-track {
+  background: white
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #909090;
+  border-radius: 30px;
+}
+
+.sidebar-1{
+  display: inline-block;
+  background-color: ;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  width: 210px;
+  height: 385px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-style: solid;
+  border-color: #e5e5e5;
+}
+
+.sidebar-2{
+  background-color: ;
+  margin-top: 12px;
+  padding-top: 12px;
+
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-top-color: #e5e5e5;
+  height: 240px;
+  width: 212px;
+}
+
+.home-button{
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 1px;
+  padding-bottom: 0;
+  border-radius: ;
+  margin: none;
+  width: 204px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.home-button:hover{
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.home-button:active{
+  background-color: #cfcfcf;
+  transition: 0.15s;
+}
+
+.subscriptions-button{
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  border: none;
+  padding-left: 12px;
+  padding-right: 18px;
+  padding-top: 1px;
+  padding-bottom: 0;
+  border-radius: ;
+  margin: none;
+  width: 204px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.shorts-button, .library-button, .history-button, .your-videos-button, .watch-later-button, .playlist-button, .show-more-button{
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 1px;
+  padding-bottom: 0;
+  border-radius: ;
+  margin: none;
+  width: 204px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.shorts-button:hover, .subscriptions-button:hover, .library-button:hover, .history-button:hover, .your-videos-button:hover, .watch-later-button:hover, .playlist-button:hover, .show-more-button:hover, .ambition-button:hover, .lofi-girl-button:hover, .the-bootleg-boy-button:hover, .ambition-button:hover, .korone-button:hover, .graystillplays-button:hover, .mrballen-button:hover, .lets-game-it-out-button:hover, .show-more-button-2:hover, .trending-button:hover, .shopping-button:hover, .music-button:hover, .movies-and-tv-button:hover, .live-button:hover, .gaming-button:hover, .news-button:hover, .sports-button:hover, .learning-button:hover, .fashion-and-beauty-button:hover, .podcasts-button:hover, .youtube-premium-button:hover, .youtube-studio-button:hover, .youtube-kids-button:hover, .youtube-tv-button:hover, .settings-button:hover, .report-history-button:hover, .help-button:hover, .send-feedback-button:hover, .copyright:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.about-text{
+  cursor: pointer;
+}
+
+.shorts-button:active, .subscriptions-button:active, .library-button:active, .history-button:active, .your-videos-button:active, .watch-later-button:active, .playlist-button:active, .show-more-button:active, .ambition-button:active, .lofi-girl-button:active, .the-bootleg-boy-button:active, .ambition-button:active, .korone-button:active, .graystillplays-button:active, .mrballen-button:active, .lets-game-it-out-button:active, .show-more-button-2:active, .trending-button:active, .shopping-button:active, .music-button:active, .movies-and-tv-button:active, .live-button:active, .gaming-button:active, .news-button:active, .sports-button:active, .learning-button:active, .fashion-and-beauty-button:active, .podcasts-button:active, .youtube-premium-button:active, .youtube-studio-button:active, .youtube-kids-button:active, .youtube-tv-button:active, .settings-button:active, .report-history-button:active, .help-button:active, .send-feedback-button:active, .copyright:active{
+  transition: 0.15s;
+  background-color: #dadada;
+}
+
+
+
+.home-button img, .shorts-button img, .subscriptions-button img, .library-button img, .history-button img, .your-videos-button img, .watch-later-button img, .playlist-button img, .show-more-button img{
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.home-buttonn div, .shorts-button div, .subscriptions-button div, .library-button div, .history-button div, .your-videos-button div, .watch-later-button div, .playlist-button div, .show-more-button div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+
+/*-----------------------------------------------*/
+
+.sidebar-3, .sidebar-6{
+  background-color: ;
+  width: 216px;
+  max-height: 1000px;
+  padding: 12px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+}
+
+
+.sidebar-4, .sidebar-5{
+  background-color: ;
+  width: 216px;
+  max-height: 1000px;
+  padding: 12px;
+  padding-top: 13px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+}
+
+.sidebar-7{
+  background-color: ;
+  max-width: 240px;
+  height: 55px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+}
+
+.sidebar-8{
+  background-color: ;
+  width: 200px;
+  height: 68px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+}
+
+.sidebar-9{
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.copyright{
+  font-size: 12px;
+  color: #6c646c
+}
+
+.about-text {
+  display: inline-block;
+  font-size: 13px;
+  font-family: Roboto, Arial;
+  color: #606060;
+  margin-right: 4px;
+}
+
+.sub-text{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.text-in-subscriptions {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  padding-bottom: 1px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+
+
+.ambition-button, .the-bootleg-boy-button, .lofi-girl-button, .graystillplays-button, .korone-button, .mrballen-button, .lets-game-it-out-button, .show-more-button-2, .trending-button, .shopping-button, .music-button, .movies-and-tv-button, .live-button, .gaming-button, .news-button, .sports-button, .learning-button, .fashion-and-beauty-button, .podcasts-button, .youtube-premium-button, .youtube-studio-button, .youtube-music-button, .youtube-kids-button, .youtube-tv-button, .settings-button, .report-history-button, .help-button, .send-feedback-button{
+  display: inline-grid;
+  grid-template-columns: 48px 116px 16px;
+  align-items: center;
+  text-align: left;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 0;
+  margin: none;
+  width: 204px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.youtube-live, .show-more-icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  border-radius: 50%;
+
+}
+
+.movies-and-tv-button img{
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.sidebar-icons-2 {
+  width: 16px;
+  height: 16px;
+}
+
+.channel-blue-dot {
+  background-color: rgb(6, 95, 212);
+  width: 4px;
+  height: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.mini-side-bar {
+  display: inline-block;
+
+  background-color: ;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+
+  z-index: 50;
+  width: 64px;
+  height: 919px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.first-button-mini-sidebar{
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 14px;
+}
+
+.other-button-mini-sidebar {
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 14px;
+}
+
+.mini-side-bar img {
+  width: 24px;
+  height: 24px;
+}
+
+.mini-side-bar p {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  padding-top: 2px;
+}
+
+@media (max-width: 1313px) {
+  .sidebar{
+    display: none;
+  }
+}
+
+@media (max-width: 792px) {
+  .mini-side-bar{
+    display: none; 
+  }
+}

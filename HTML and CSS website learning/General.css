@@ -1,0 +1,35 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: auto;
+  padding-top: 112px;
+  padding-left: 240px;
+  padding-right: 24px;
+  background-color: white;
+  padding-bottom: 2500px;
+
+  max-width: 1861.56px;
+} 
+
+@media (max-width:1312px) {
+  body{
+      padding-left: 68px;
+  }
+}
+
+@media (max-width: 792px) {
+  body{
+    padding-left: 0;
+  }
+}
+
+

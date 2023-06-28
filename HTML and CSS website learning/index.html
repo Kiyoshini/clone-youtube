@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube.com Clone</title>
+  <link rel="stylesheet" href="video.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="Sidebar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="Youtube images/header-images/hamburger-menu.svg">
+      <img class="youtube-logo" src="Youtube images/header-images/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="Youtube images/header-images/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="Youtube images/header-images/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="Youtube images/header-images/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="Youtube images/header-images/notifications.svg">
+        <div class="tooltip">Notifications</div>
+        <div class="notifications-count">1</div>
+      </div>
+      <div class="current-user-container">
+        <img class="current-user-picture" src="Youtube images/channel-pictures/unnamed.jpg">
+      </div>
+    </div>
+    <div class="bottom-section">
+      <button class="first-bottom-button">
+        All
+      </button>
+      <button class="other-bottom-buttons">
+        Gaming
+      </button>
+      <button class="other-bottom-buttons">
+        Mixes
+      </button>
+      <button class="other-bottom-buttons">
+        Counter-Strike: Global Offensive
+      </button>
+      <button class="other-bottom-buttons">
+        Music
+      </button>
+      <button class="other-bottom-buttons">
+        Minecraft Bedrock
+      </button>
+      <button class="other-bottom-buttons">
+        Speedruns
+  
+      </button>
+      <button class="other-bottom-buttons">
+        Podcasts
+      </button>
+      <button class="other-bottom-buttons">
+        Mods
+      </button>
+      <button class="other-bottom-buttons">
+        Characters
+      </button>
+      <button class="other-bottom-buttons">
+        Computer programming
+      </button>
+      <button class="other-bottom-buttons">
+        Media theories
+      </button>
+      <button class="other-bottom-buttons">
+        Computers
+      </button>
+      <button class="other-bottom-buttons">
+        Chemistry
+      </button>
+      <button class="other-bottom-buttons">
+        Puzzle games
+      </button>
+      <button class="other-bottom-buttons">
+        Computer Hardware
+      </button>
+    </div>
+    <div class="right-side-arrow">
+      <div class="right-side-arrow-container">
+        <img class="right-arrow" src="Youtube images/header-images/svgexport-47.svg">
+        <div class="tooltip">
+          Next
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-1">
+      <button class="home-button" onclick="window.location.href='https://www.youtube.com/';">
+        <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/home.svg">
+        <div style="
+        color: rgba(15,15,15,255);
+        font-weight: 600;
+        ">Home</div>
+      </button>
+      <button class="shorts-button" onclick="window.location.href='https://www.youtube.com/shorts/2AGOP7pLqu0';">
+        <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/shorts-icon.svg">
+        <div>Shorts</div>
+      </button>
+      <button class="subscriptions-button" onclick="window.location.href='https://www.youtube.com/feed/subscriptions';">
+        <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/subscriptions-icon.svg">
+        <div>Subscriptions</div>
+      </button>
+      <div class="sidebar-2">
+        <button class="library-button" onclick="window.location.href='https://www.youtube.com/feed/library';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/library-icon.svg">
+          <div>Library</div>
+        </button>
+        <button class="history-button" onclick="window.location.href='https://www.youtube.com/feed/history';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/history-icon.svg">
+          <div>History</div>
+        </button>
+        <button class="your-videos-button" onclick="window.location.href='https://studio.youtube.com/channel/UCaFSe2gC1ykEA6-nlLVWyGA/videos';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/yourvideos-icon.svg">
+          <div>Your videos</div>
+        </button>
+        <button class="watch-later-button" onclick="window.location.href='https://www.youtube.com/playlist?list=WL';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/watchlater-icon.svg">
+          <div>Watch later</div>
+        </button>
+        <button class="playlist-button" onclick="window.location.href='https://www.youtube.com/playlist?list=PLJf7HYf2inggPeeYBIm_22ejRGi5ARCiD';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/playlist-icon.svg">
+          <div>Ichika Nito</div>
+        </button>
+        <button class="show-more-button" onclick="window.location.href='';">
+          <img class="sidebar-icons" src="Youtube images/sidebar-images/better-youtube-sidebar/pointingdown-icon.svg">
+          <div>Show more</div>
+        </button>
+      </div>
+    </div>
+    <div class="sidebar-3">
+      <p class="sub-text">
+        Subscriptions
+      </p>
+      <button class="ambition-button" onclick="window.location.href='https://www.youtube.com/@AmbitionMusic';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/channels4_profile.jpg">
+        <div class="text-in-subscriptions">
+          Ambition
+        </div>
+        <img class="sidebar-icons-2" src="Youtube images/sidebar-images/better-youtube-sidebar/youtube-live.svg">
+      </button>
+      <button class="korone-button" onclick="window.location.href='https://www.youtube.com/@InugamiKorone';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/unnamed (2).jpg">
+        <div class="text-in-subscriptions">
+          Korone Ch. 戌神ころね
+        </div>
+        <img class="sidebar-icons-2" src="Youtube images/sidebar-images/better-youtube-sidebar/youtube-live.svg">
+      </button>
+      <button class="the-bootleg-boy-button" onclick="window.location.href='https://www.youtube.com/@thebootlegboy';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/channels4_profile (1).jpg">
+        <div class="text-in-subscriptions">
+          the bootleg boy
+        </div>
+        <img class="sidebar-icons-2" src="Youtube images/sidebar-images/better-youtube-sidebar/youtube-live.svg">
+      </button>
+      <button class="lofi-girl-button" onclick="window.location.href='https://www.youtube.com/@LofiGirl';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/channels4_profile (2).jpg">
+        <div class="text-in-subscriptions">
+          Lofi Girl
+        </div>
+        <img class="sidebar-icons-2" src="Youtube images/sidebar-images/better-youtube-sidebar/youtube-live.svg">
+      </button>
+      <button class="graystillplays-button" onclick="window.location.href='https://www.youtube.com/@GrayStillPlays';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/channels4_profile (3).jpg">
+        <div class="text-in-subscriptions">
+          GrayStillPlays
+        </div>
+        <div class="channel-blue-dot">
+          &#183;
+        </div>
+      </button>
+      <button class="mrballen-button" onclick="window.location.href='https://www.youtube.com/@MrBallen';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/channels4_profile (4).jpg">
+        <div class="text-in-subscriptions">
+          MrBallen
+        </div>
+      </button>
+      <button class="lets-game-it-out-button" onclick="window.location.href='https://www.youtube.com/@LetsGameItOut';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/channel-pictures-sidebar/unnamed.jpg">
+        <div class="text-in-subscriptions">
+          Let's Game It Out
+        </div>
+        <div class="channel-blue-dot">
+          &#183;
+        </div>
+      </button>
+      <button class="show-more-button-2" onclick="window.location.href='';">
+        <img class="show-more-icon" src="Youtube images/sidebar-images/better-youtube-sidebar/pointingdown-icon.svg">
+        <div class="text-in-subscriptions">
+          Show 109 more
+        </div>
+      </button>
+    </div>
+    <div class="sidebar-4">
+      <p class="sub-text">
+        Explore
+      </p>
+      <button class="trending-button" onclick="window.location.href='https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-31.svg">
+        <div class="text-in-subscriptions">
+          Trending
+        </div>
+      </button>
+      <button class="shopping-button" onclick="window.location.href='https://www.youtube.com/channel/UCkYQyvc_i9hXEo4xic9Hh2g';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-32.svg">
+        <div class="text-in-subscriptions">
+          Shopping
+        </div>
+      </button>
+      <button class="music-button" onclick="window.location.href='https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-33.svg">
+        <div class="text-in-subscriptions">
+          Music
+        </div>
+      </button>
+      <button class="movies-and-tv-button" onclick="window.location.href='https://www.youtube.com/feed/storefront';">
+        <img src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-34.svg">
+        <div class="text-in-subscriptions">
+          Movies &#38; TV
+        </div>
+      </button>
+      <button class="live-button" onclick="window.location.href='https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-35.svg">
+        <div class="text-in-subscriptions">
+          Live
+        </div>
+      </button>
+      <button class="gaming-button" onclick="window.location.href='https://www.youtube.com/gaming';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-36.svg">
+        <div class="text-in-subscriptions">
+          Gaming
+        </div>
+      </button>
+      <button class="news-button" onclick="window.location.href='https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-37.svg">
+        <div class="text-in-subscriptions">
+          News
+        </div>
+      </button>
+      <button class="sports-button" onclick="window.location.href='https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-38.svg">
+        <div class="text-in-subscriptions">
+          Sports
+        </div>
+      </button>
+      <button class="learning-button" onclick="window.location.href='https://www.youtube.com/channel/UCtFRv9O2AHqOZjjynzrv-xg';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-39.svg">
+        <div class="text-in-subscriptions">
+          Learning
+        </div>
+      </button>
+      <button class="fashion-and-beauty-button" onclick="window.location.href='https://www.youtube.com/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-40.svg">
+        <div class="text-in-subscriptions">
+          Fashion &#38; Beauty
+        </div>
+      </button>
+      <button class="podcasts-button" onclick="window.location.href='https://www.youtube.com/podcasts';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/explore/svgexport-41.svg">
+        <div class="text-in-subscriptions">
+          Podcasts
+        </div>
+      </button>
+    </div>  
+    <div class="sidebar-5">
+      <p class="sub-text">
+        More from YouTube
+      </p>
+      <button class="youtube-premium-button" onclick="window.location.href='https://www.youtube.com/premium';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/more-from-youtube/svgexport-42.svg">
+        <div class="text-in-subscriptions">
+          YouTube Premium
+        </div>
+      </button>
+      <button class="youtube-studio-button" onclick="window.location.href='https://studio.youtube.com/';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/more-from-youtube/svgexport-43.svg">
+        <div class="text-in-subscriptions">
+          YouTube Studio
+        </div>
+      </button>
+      <button class="youtube-music-button" onclick="window.location.href='https://music.youtube.com/';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/more-from-youtube/svgexport-44.svg">
+        <div class="text-in-subscriptions">
+          YouTube Music
+        </div>
+      </button>
+      <button class="youtube-kids-button" onclick="window.location.href='https://www.youtubekids.com/?source=youtube_web';">
+        <img src="Youtube images/sidebar-images/better-youtube-sidebar/more-from-youtube/svgexport-45.svg">
+        <div class="text-in-subscriptions">
+          YouTube Kids
+        </div>
+      </button>
+      <button class="youtube-tv-button" onclick="window.location.href='https://tv.youtube.com/?utm_source=youtube_web&utm_medium=ep&utm_campaign=home&ve=34273';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/more-from-youtube/svgexport-46.svg">
+        <div class="text-in-subscriptions">
+          YouTube TV
+        </div>
+      </button>
+    </div> 
+    <div class="sidebar-6">
+      <button class="settings-button" onclick="window.location.href='https://www.youtube.com/account';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/settings/svgexport-47.svg">
+        <div class="text-in-subscriptions">
+          Settings
+        </div>
+      </button>
+      <button class="report-history-button" onclick="window.location.href='https://www.youtube.com/reporthistory';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/settings/svgexport-48.svg">
+        <div class="text-in-subscriptions">
+          Report history
+        </div>
+      </button>
+      <button class="help-button" onclick="window.location.href='';">
+        <img class="youtube-live" src="Youtube images/sidebar-images/better-youtube-sidebar/settings/svgexport-49.svg">
+        <div class="text-in-subscriptions">
+          Help
+        </div>
+      </button>
+      <button class="send-feedback-button" onclick="window.location.href='';">
+        <img src="Youtube images/sidebar-images/better-youtube-sidebar/settings/svgexport-50.svg">
+        <div class="text-in-subscriptions">
+          Send feedback
+        </div>
+      </button>
+    </div> 
+    <div class="sidebar-7">
+      <a class="about-text" onclick="window.location.href='https://www.youtube.com/about/';">
+        About
+      </a>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/about/press/';">
+        Press
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/about/copyright/';">
+        Copyright
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/t/contact_us/';">
+        Contact us
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/creators/';">
+        Creators
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/ads/';">
+        Advertise
+      </p>
+      <p class="about-text" onclick="window.location.href='https://developers.google.com/youtube';">
+        Developers
+      </p>
+    </div>  
+    <div class="sidebar-8">
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/t/terms';">
+        Terms
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/t/privacy';">
+        Privacy
+      </p>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/about/policies/';">
+        Policy &#38; Safety
+      </p>
+      <a class="about-text" onclick="window.location.href='https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen';">
+        How YouTube works
+      </a>
+      <p class="about-text" onclick="window.location.href='https://www.youtube.com/new';">
+        Test new features
+      </p>
+      <p class="about-text" onclick="window.location.href='https://tv.youtube.com/learn/nflsundayticket';">
+        NFL Sunday Ticket
+      </p>
+    </div> 
+    <div class="sidebar-9">
+      <p class="copyright">
+        © 2023 Google LLC
+      </p>
+    </div> 
+  </div>
+  
+  <div class="mini-side-bar">
+    <div class="first-button-mini-sidebar">
+      <img  src="Youtube images/sidebar-images/mini-sidebar/svgexport-14.svg">
+      <p>Home</p>
+    </div>
+    <div class="other-button-mini-sidebar">
+      <img src="Youtube images/sidebar-images/mini-sidebar/svgexport-15.svg">
+      <p>Shorts</p>
+    </div>
+    <div class="other-button-mini-sidebar">
+      <img src="Youtube images/sidebar-images/mini-sidebar/svgexport-16.svg">
+      <p>Subscriptions</p>
+    </div>
+    <div class="other-button-mini-sidebar">
+      <img src="Youtube images/sidebar-images/mini-sidebar/svgexport-17.svg">
+      <p>Library</p>
+    </div>
+  </div>
+
+  <div class="entire-video-page">
+    <div class="video-row">
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/thumbnail-1.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hqdefault.webp">
+          <div class="video-time">11:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Charlie.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              This Prankster Has No Remorse
+            </p>
+            <p class="video-author">
+              penguinz0
+            </p>
+            <p class="video-stats">
+              2M views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq721.webp">
+          <div class="video-time">4:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/yorushika.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ヨルシカ - アルジャーノン
+            </p>
+            <p class="video-author">
+              ヨルシカ / n-buna Official
+            </p>
+            <p class="video-stats">
+              5.5M views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=entire-youtube-shorts-row">
+    <div class="youtube-shorts-row">
+      <div class="youtube-shorts-container-title">
+        <div class="left-section-shorts-row">
+          <img src="Youtube images/Shorts/svgexport-54.svg">
+          <p>Shorts</p>
+        </div>
+        <div class="right-section-shorts-row">
+          <img src="Youtube images/Shorts/svgexport-1.svg">
+        </div>
+      </div>
+      <div class="shorts-row">
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/b_AGtp2O-fM">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/hq720.webp">
+          <div class="short-title">
+            Memes That Are Borderline Illegal #foryou #fyp #funny #darkhumour #memestiktok #viral #memes
+          </div>
+          <p class="short-stats">
+            587k views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/MUNdQtzgkig">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2.webp">
+          <div class="short-title">
+            Clicks Per Second - An Actual Short
+          </div>
+          <p class="short-stats">
+            16M views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/WARKKc79bh4">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2 (1).webp">
+          <div class="short-title">
+            Valkyrae REACTS to Lily's diss track about BLAU #shorts
+          </div>
+          <p class="short-stats">
+            491k views
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/WsciBZQACk4">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2.jpg">
+          <div class="short-title">
+            when your house is haunted but you have nowhere else to live
+          </div>
+          <p class="short-stats">
+            134M views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/REBSK5dwVW8">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2 (3).webp">
+          <div class="short-title">
+            Can They Shoot in the SNOW?!
+          </div>
+          <p class="short-stats">
+            4.8M views
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/0QMGUbSNTKk">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/hq720 (1).webp">
+          <div class="short-title">
+            LIL MABU MANIFESTED HIS SUCESS😳🐐**LEGENDARY**
+          </div>
+          <p class="short-stats">
+            587k views &#183; 7 days ago
+          </p>
+        </a>
+      </div>
+    </div>
+    <button class="show-more-button-shorts">
+      <div class="show-more-button-shorts-container">
+        <img src="Youtube images/sidebar-images/better-youtube-sidebar/pointingdown-icon.svg">
+      </div> 
+    </button>
+  
+  </div>
+
+  <div class="entire-video-page-2">
+    <div class="video-row">
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/thumbnail-1.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hqdefault.webp">
+          <div class="video-time">11:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Charlie.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              This Prankster Has No Remorse
+            </p>
+            <p class="video-author">
+              penguinz0
+            </p>
+            <p class="video-stats">
+              2M views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq721.webp">
+          <div class="video-time">4:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/yorushika.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ヨルシカ - アルジャーノン
+            </p>
+            <p class="video-author">
+              ヨルシカ / n-buna Official
+            </p>
+            <p class="video-stats">
+              5.5M views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Youtube images/thumbnails/hq720.webp">
+          <div class="video-time">17:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Youtube images/channel-pictures/Brew.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Man Wears His New AirPods. Minutes Later, He's Rushed to the Hospital.
+            </p>
+            <p class="video-author">
+              Brew
+            </p>
+            <p class="video-stats">
+              25k views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=entire-youtube-shorts-row">
+    <div class="youtube-shorts-row">
+      <div class="youtube-shorts-container-title">
+        <div class="left-section-shorts-row">
+          <img src="Youtube images/Shorts/svgexport-54.svg">
+          <p>Shorts</p>
+        </div>
+        <div class="right-section-shorts-row">
+          <img src="Youtube images/Shorts/svgexport-1.svg">
+        </div>
+      </div>
+      <div class="shorts-row">
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/b_AGtp2O-fM">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/hq720.webp">
+          <div class="short-title">
+            Memes That Are Borderline Illegal #foryou #fyp #funny #darkhumour #memestiktok #viral #memes
+          </div>
+          <p class="short-stats">
+            587k views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/MUNdQtzgkig">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2.webp">
+          <div class="short-title">
+            Clicks Per Second - An Actual Short
+          </div>
+          <p class="short-stats">
+            16M views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/WARKKc79bh4">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2 (1).webp">
+          <div class="short-title">
+            Valkyrae REACTS to Lily's diss track about BLAU #shorts
+          </div>
+          <p class="short-stats">
+            491k views
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/WsciBZQACk4">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2.jpg">
+          <div class="short-title">
+            when your house is haunted but you have nowhere else to live
+          </div>
+          <p class="short-stats">
+            134M views 
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/REBSK5dwVW8">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/oar2 (3).webp">
+          <div class="short-title">
+            Can They Shoot in the SNOW?!
+          </div>
+          <p class="short-stats">
+            4.8M views
+          </p>
+        </a>
+        <a class="youtube-short-card" href="https://www.youtube.com/shorts/0QMGUbSNTKk">
+          <img src="Youtube images/Shorts/shorts-thumnails-2/hq720 (1).webp">
+          <div class="short-title">
+            LIL MABU MANIFESTED HIS SUCESS😳🐐**LEGENDARY**
+          </div>
+          <p class="short-stats">
+            587k views &#183; 7 days ago
+          </p>
+        </a>
+      </div>
+    </div>
+    <button class="show-more-button-shorts">
+      <div class="show-more-button-shorts-container">
+        <img src="Youtube images/sidebar-images/better-youtube-sidebar/pointingdown-icon.svg">
+      </div> 
+    </button>
+  
+  </div>
+
+
+  
+
+  
+
+</body>
+</htm
